@@ -28,7 +28,12 @@ public class OdontologoDAOTest {
         odontologoDAOH2.guardar(odontologo);
 
         List<Odontologo> odontologos = odontologoDAOH2.listarTodos();
-        Assert.assertTrue(odontologos.contains(odontologo));
+        Assert.assertEquals(1, odontologos.size());
+
+        Odontologo odontologoGuardado = odontologos.get(0);
+        Assert.assertEquals(odontologo.getMatricula(), odontologoGuardado.getMatricula());
+        Assert.assertEquals(odontologo.getNombre(), odontologoGuardado.getNombre());
+        Assert.assertEquals(odontologo.getApellido(), odontologoGuardado.getApellido());
     }
 
     @Test
@@ -49,8 +54,17 @@ public class OdontologoDAOTest {
 
         List<Odontologo> odontologos = odontologoDAOH2.listarTodos();
         Assert.assertEquals(2, odontologos.size());
-        Assert.assertTrue(odontologos.contains(odontologo1));
-        Assert.assertTrue(odontologos.contains(odontologo2));
+
+        Odontologo odontologoRecuperado1 = odontologos.get(0);
+        Odontologo odontologoRecuperado2 = odontologos.get(1);
+
+        Assert.assertEquals(odontologo1.getMatricula(), odontologoRecuperado1.getMatricula());
+        Assert.assertEquals(odontologo1.getNombre(), odontologoRecuperado1.getNombre());
+        Assert.assertEquals(odontologo1.getApellido(), odontologoRecuperado1.getApellido());
+
+        Assert.assertEquals(odontologo2.getMatricula(), odontologoRecuperado2.getMatricula());
+        Assert.assertEquals(odontologo2.getNombre(), odontologoRecuperado2.getNombre());
+        Assert.assertEquals(odontologo2.getApellido(), odontologoRecuperado2.getApellido());
     }
 
     @Test
