@@ -1,13 +1,14 @@
 package DAO;
 import java.sql.*;
 import java.util.List;
+import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import Model.Odontologo;
 import java.lang.*;
 public class OdontologoDAOH2 implements OdontologoDAO{
     private static final Logger logger = Logger.getLogger(OdontologoDAOH2.class);
     private static final String SQL_INSERT = "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?)";
-    private static final String SQL_SELECT_ONE = "SELECT * FROM ODONTOLOGOS WHERE ID=?";
+    private static final String SQL_SELECT_ALL = "SELECT * FROM ODONTOLOGOS";
 
     @Override
     public Odontologo guardar(Odontologo odontologo) {
@@ -30,17 +31,23 @@ public class OdontologoDAOH2 implements OdontologoDAO{
         }
         return odontologo;
     }
-
     @Override
     public List<Odontologo> listarTodos() {
-        logger.info("Realizando listado de odontólogos");
         Connection connection = null;
+        List<Odontologo> odontologos = new ArrayList<>();
         try {
             connection = DB.getConnection();
-
+            Statement statement = connection.createStatement();
+            PreparedStatement psList = connection.prepareStatement(SQL_SELECT_ALL);
+            ResultSet rs = psList.executeQuery();
+            while (rs.next()) {
+                Odontologo odontologo = new Odontologo(rs.getInt("ID"), rs.getInt("MATRICULA"), rs.getString("NOMBRE"), rs.getString("APELLIDO"));
+                odontologos.add(odontologo);
+            }
+            logger.info("Odontólogos listados exitosamente");
         } catch (Exception e) {
-            logger.error("Problemas con la BD " + e.getMessage());
+            logger.error("Error al listar odontólogos: " + e.getMessage());
         }
-        return List.of();
+        return odontologos;
     }
 }
