@@ -184,3 +184,31 @@ INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [90012-230]
 [2024-08-09 00:12:44] [ INFO ] [DB:18] La tabla fue creada con exito
 [2024-08-09 00:12:44] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Lucía Sánchez
 [2024-08-09 00:12:44] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-09 00:37:55] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOH2:15] Realizando guardado del odontólogo: Luis
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOH2:15] Realizando guardado del odontólogo: María
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOH2:47] Odontólogos listados exitosamente
+[2024-08-09 00:37:55] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOH2:15] Realizando guardado del odontólogo: Juan
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOH2:47] Odontólogos listados exitosamente
+[2024-08-09 00:37:55] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Carlos González
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Laura Ramírez
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-09 00:37:55] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Ana García
+[2024-08-09 00:37:55] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-09 00:40:53] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOH2:15] Realizando guardado del odontólogo: Luis
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOH2:15] Realizando guardado del odontólogo: María
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOH2:47] Odontólogos listados exitosamente
+[2024-08-09 00:40:53] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Carlos González
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Laura Ramírez
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-09 00:40:53] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Ana García
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-09 00:40:53] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOH2:15] Realizando guardado del odontólogo: Juan
+[2024-08-09 00:40:53] [ INFO ] [OdontologoDAOH2:47] Odontólogos listados exitosamente

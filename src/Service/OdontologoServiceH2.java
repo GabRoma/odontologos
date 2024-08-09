@@ -5,18 +5,18 @@ import DAO.OdontologoDAOH2;
 import Model.Odontologo;
 import java.util.List;
 
-public class OdontologoService {
-    private OdontologoDAO odontologoDao;
+public class OdontologoServiceH2 {
+    private OdontologoDAO odontologoH2;
 
-    public OdontologoService() {
-        odontologoDao = new OdontologoDAOH2();
+    public OdontologoServiceH2() {
+        odontologoH2 = new OdontologoDAOH2();
     }
 
     public Odontologo guardarOdontologo(Odontologo odontologo){
-        return odontologoDao.guardar(odontologo);
+        return odontologoH2.guardar(odontologo);
     }
 
     public List<Odontologo> listarTodos(){
-        return odontologoDao.listarTodos();
+        return odontologoH2.listarTodos();
     }
 }
