@@ -1,0 +1,34 @@
+[2024-08-08 23:08:17] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Juan Pérez
+[2024-08-08 23:08:17] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Ana García
+[2024-08-08 23:08:17] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-08 23:12:38] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Juan Pérez
+[2024-08-08 23:12:38] [ INFO ] [OdontologoDAOLista:21] Odontólogo guardado en la lista: Ana García
+[2024-08-08 23:12:38] [ INFO ] [OdontologoDAOLista:30] Odontólogos guardados en la lista
+[2024-08-08 23:15:47] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:15:47] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?,?) [42104-230]
+[2024-08-08 23:15:47] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:15:47] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?,?) [42104-230]
+[2024-08-08 23:15:47] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:18:26] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:18:26] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?,?) [42104-230]
+[2024-08-08 23:18:26] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:18:26] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?,?) [42104-230]
+[2024-08-08 23:18:26] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:19:59] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:19:59] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?,?) [42104-230]
+[2024-08-08 23:19:59] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:19:59] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?,?) [42104-230]
+[2024-08-08 23:19:59] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:20:30] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:20:30] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-230]
+[2024-08-08 23:20:30] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:20:30] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-230]
+[2024-08-08 23:20:30] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
