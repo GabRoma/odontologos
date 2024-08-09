@@ -32,3 +32,38 @@ INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-230]
 [2024-08-08 23:20:30] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
 INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-230]
 [2024-08-08 23:20:30] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:26:28] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:26:28] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-230]
+[2024-08-08 23:26:28] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:26:28] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [42104-230]
+[2024-08-08 23:26:28] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:27:44] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-08 23:27:44] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:27:44] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-230]
+[2024-08-08 23:27:44] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:27:44] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?) [21002-230]
+[2024-08-08 23:27:44] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:28:16] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-08 23:28:16] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:28:16] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Parametro "#4" no está fijado
+Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [90012-230]
+[2024-08-08 23:28:16] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:28:16] [ ERROR] [OdontologoDAOH2:29] Problemas con la BD Parametro "#4" no está fijado
+Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES(?,?,?,?) [90012-230]
+[2024-08-08 23:28:16] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:29:00] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-08 23:29:00] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:29:00] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:29:00] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos
+[2024-08-08 23:31:05] [ INFO ] [DB:18] La tabla fue creada con exito
+[2024-08-08 23:31:05] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Juan
+[2024-08-08 23:31:05] [ INFO ] [OdontologoDAOH2:14] Realizando guardado del odontólogo: Ana
+[2024-08-08 23:31:05] [ INFO ] [OdontologoDAOH2:36] Realizando listado de odontólogos

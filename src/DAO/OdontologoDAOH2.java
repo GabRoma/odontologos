@@ -6,7 +6,7 @@ import Model.Odontologo;
 import java.lang.*;
 public class OdontologoDAOH2 implements OdontologoDAO{
     private static final Logger logger = Logger.getLogger(OdontologoDAOH2.class);
-    private static final String SQL_INSERT = "INSERT INTO ODONTOLOGOS VALUES(?,?,?)";
+    private static final String SQL_INSERT = "INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?)";
     private static final String SQL_SELECT_ONE = "SELECT * FROM ODONTOLOGOS WHERE ID=?";
 
     @Override

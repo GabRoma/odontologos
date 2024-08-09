@@ -17,8 +17,9 @@ public class OdontologoDAOTest {
     @Before
     public void setUp() {
         // Cambiar la implementación según el tipo de persistencia que se quiera probar
-        odontologoDAO = new OdontologoDAOLista(); // Para probar con lista
-//        odontologoDAO = new OdontologoDAOH2(); // Para probar con base de datos H2
+//        odontologoDAO = new OdontologoDAOLista(); // Para probar con lista
+        DB.crearTablaOdontologo();
+        odontologoDAO = new OdontologoDAOH2(); // Para probar con base de datos H2
     }
 
     @Test
